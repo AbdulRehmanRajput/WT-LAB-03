@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Transition</title>
+		<style>
+			div{
+				position:relative;
+				width:200px;
+				height:200px;
+				background:blue;
+				border:2px solid red;
+				animation-name: test;
+				animation-duration: 4s;
+				animation-delay: 30s: 
+				
+				animation-iterative-count:infinite;
+			}
+			@keyframes test{
+				0%{background:red;left:0px;top:0px;}
+				25%{background:yellow;left:300px;top:0px;}
+				50%{background:pink;left:300px;top:300px;transform:rotate(360deg);}
+				75%{background:orange;left:0px;top:300px;}
+				100%{background:green;left:0px;top:0px;}
+			
+				}
+		
+				
+			
+			
+		</style>
+	</head>
+	
+	<body>
+		<div id="test">
+			
+		</div>
+
+
+
+
+</html>
